@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Vehicle</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f2f2f2;
+text-align:center;
+}
+
+.container{
+width:400px;
+margin:80px auto;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+input{
+width:90%;
+padding:10px;
+margin:10px;
+}
+
+button{
+padding:10px 20px;
+background:green;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Vehicle Registration</h2>
+
+<input type="text" placeholder="Username"><br>
+<input type="password" placeholder="Password"><br>
+<input type="text" placeholder="Vehicle Number"><br>
+
+<button onclick="register()">Register</button>
+
+</div>
+
+<script>
+
+function register(){
+alert("Registration Successful");
+window.location.href="index.html";
+}
+
+</script>
+
+</body>
+</html>
